@@ -6,7 +6,7 @@ import Emoji from './Components/Emoji'
 const App = () => {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename="/getmovies">
         <Routes>
           <Route path='/' element={<Movies/>}></Route>
           <Route path='/emoji' element={<Emoji/>}></Route>

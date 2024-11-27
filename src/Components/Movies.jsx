@@ -39,7 +39,7 @@ const Movies = () => {
     <div>
       <center>
         <h1 className='text-primary'>Search Movies</h1>
-        <Link to='/emoji' className='fs-4 '>Emoji Link</Link>
+        <Link to='/emoji' className='fs-4 '>Get Emoji here </Link>
         <form onSubmit={submitHandler}>
           <input
           className='form-control w-50 mt-3'
