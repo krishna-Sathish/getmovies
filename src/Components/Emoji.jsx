@@ -10,11 +10,11 @@ const Emoji = () => {
 
     },[search])
   return (
-    <div>
+    <div className='container-fluid'>
         <center>
-          <h1 className='text-primary'> Search Emoji</h1>
+          <h1 className='text-primary mt-2'> Search Emoji</h1>
           <form>
-            <input type="text" name='search' value={search} onChange={e=>setSearch(e.target.value)} className='form-control w-50' />
+            <input type="text" name='search' value={search} onChange={e=>setSearch(e.target.value)} className='form-control input-field' />
           </form>
 
           <div className="row">

@@ -4,3 +4,11 @@ body{
 .card-img-top{
     height: 300px;
 }
+.input-field{
+    width: 50%;
+}
+@media (max-width:600px){
+    .input-field{
+        width: 80%;
+    }
+}

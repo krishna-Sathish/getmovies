@@ -36,13 +36,13 @@ const Movies = () => {
   };
 
   return (
-    <div>
+    <div className='container-fluid'>
       <center>
-        <h1 className='text-primary'>Search Movies</h1>
+        <h1 className='text-primary mt-2'>Search Movies</h1>
         <Link to='/emoji' className='fs-4 '>Get Emoji here </Link>
         <form onSubmit={submitHandler}>
           <input
-          className='form-control w-50 mt-3'
+          className='form-control input-field mt-3'
             type="text"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
